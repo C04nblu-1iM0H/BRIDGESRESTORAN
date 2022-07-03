@@ -1,0 +1,484 @@
+
+@font-face {
+    font-family: 'forever';
+    src: url("../fonts/forever_brush_script.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Kalam';
+    src: url("../fonts/Kalam-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Merri';
+    src: url("../fonts/MerriweatherSans-Regular.ttf") format('truetype');
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header{
+    background: url("../img/Bg_banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1100px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    height: 130px;
+}
+
+nav a{
+    font-size: 16pt;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 240px;
+    font-family: 'forever',sans-serif;
+    font-size: 36pt;
+}
+
+
+nav .list{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+nav .list ul{
+    display: flex;
+    list-style-type: none;
+    justify-content:space-between;
+    width: 515px;
+    margin-right: 165px;
+}
+
+nav .list ul li {
+    color:white;
+    cursor: pointer;
+    font-family: 'Merri',sans-serif;
+    font-size: 12pt;
+}
+
+nav .list ul li:hover{
+    text-decoration: underline;
+}
+
+.bg{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.bg h1{
+    position: absolute;
+    top:25%;
+    left:20%;
+    font-size: 24pt;
+    color:rgb(255, 255, 255);
+    text-transform:uppercase;
+    text-shadow: -10px 10px 0px #342ca3;
+
+}
+
+.bg .one{
+    color:white;
+    position: absolute;
+    top:65%;
+    left:60%;
+    background-color: rgb(137, 50, 250);
+    padding: 5px;
+}
+
+.bg .two{
+    color:white;
+    position: absolute;
+    top:69.98%;
+    left:66%;
+    background-color: rgb(137, 50, 250);
+    padding: 5px;
+}
+
+.rol_red{
+    width:100%;
+    height: 660px;
+    background-color: brown;
+}
+
+.rol_red figure{
+    padding: 100px 0 ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.rol_red figure figcaption h2{ 
+    text-align: center;
+    color:white;
+    font-size: 44pt;
+    font-family: 'forever', sans-serif;
+    margin-bottom: 10px;
+}
+.rol_red figure figcaption hr{
+    background-color: white;
+    height: 1px;
+    margin: 0 auto;
+    width: 105px;
+    margin-bottom: 50px;
+}
+
+.rol_red figure figcaption p{
+    color:white;
+    text-align: center;
+    font-size: 16pt;
+} 
+
+.Singatures{
+background-image: url("../img/bg.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-clip: border-box;
+}
+.Singatures figure{
+    display: flex;
+    justify-content: center;
+    padding: 122px 0;
+}
+
+
+.Singatures figure figcaption h2{
+    text-align: center;
+    color:white;
+    font-size: 44pt;
+    font-family: 'forever',sans-serif;
+    margin-bottom: 10px;
+}
+.Singatures figure figcaption hr{
+    background-color: #c8235d;
+    height: 1px;
+    margin: 0 auto;
+    width: 105px;
+    margin-bottom: 50px;
+}
+.Singatures figure figcaption p{
+    color:white;
+    text-align: center;
+    font-size: 16pt;
+}
+
+
+
+.menu_left{
+    background-image: url(../img/right_img.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-clip: border-box;
+    height: 990px;
+}
+
+.menu_left h2{
+    color:white;
+    font-size: 44pt;
+    margin-left: 30%;
+    font-family: 'forever',sans-serif;
+    margin-bottom: 10px;
+    padding-top: 50px;
+}
+
+.menu_left hr{
+    background-color: white;
+    height: 1px;
+    margin-left: 32%;
+    width: 105px;
+    margin-bottom: 50px;
+}
+
+.menu_left div{
+    display: flex;
+    margin-left: 20%;
+}
+
+.menu_left div figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 600px;
+}
+
+.menu_left div figure figcaption h3{
+    color: white;
+    font-size: 16pt;
+    margin-bottom: 30px;
+    width: 606px;
+    text-transform: uppercase;
+    clear: both;
+    font-family: 'Kalam',sans-serif;
+}
+
+.menu_left div figure figcaption h3 span{
+    color: #c8235d;
+    margin-left: 80px;
+    font-size: 16pt;
+    float:right;
+}
+
+.menu_left div figure figcaption p{
+    color: white;
+    text-align: center;
+    font-size: 16pt;
+}
+
+
+
+
+
+
+.menu_right{
+    background-image: url(../img/left_img.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-clip:border-box;
+    display: block;
+    width: 100%;
+    height: 1200px;
+}
+
+.menu_right h2{
+    color:white;
+    font-size: 44pt;
+    text-align:right;
+    font-family: 'forever',sans-serif;
+    margin-bottom: 10px;
+    margin-right: 400px;
+    padding-top: 50px;
+}
+
+.menu_right hr{
+    background-color: white;
+    height: 1px;
+    float: right;
+    width: 105px;
+    margin-right: 445px;
+    margin-bottom: 50px;
+}
+
+.menu_right div{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: -150px;
+    width: 100%;
+}
+
+.menu_right div figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 765px;
+}
+
+.menu_right div figure figcaption h3{
+    color: white;
+    font-size: 16pt;
+    font-family: 'Kalam',sans-serif;
+    margin-bottom: 30px;
+    width: 606px;
+    text-transform: uppercase;
+    clear: both;
+    
+}
+
+.menu_right div figure figcaption h3 span{
+    color: #c8235d;
+    float:right;
+    font-size: 16pt;
+}
+
+.menu_right div figure figcaption p{
+    color: white;
+    text-align: center;
+    font-size: 16pt;
+}
+
+
+
+.slider{
+    position: relative;
+}
+/* Картинка мастабируется по отношению к родительскому элементу */
+.slider .item > img {
+    background-size:contain;
+    background-clip:border-box;
+    display: block;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+/* Кнопки вперед и назад */
+.slider .prev, .slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider .prev:hover,
+.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* Анимация слайдов */
+.slider .item {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+footer{
+    background-color: #25262a;
+    width: 100%;
+    height: 350px;
+}
+
+footer .block_info{
+    display: flex;
+    align-items: center;
+}
+
+footer .block_info figure{
+    width: 333px;
+    margin-left: 150px;
+    margin-right: 70px;
+    margin-top: 50px;
+}
+
+footer .block_info figure a{
+    text-decoration: none;
+    color: white;
+    font-size: 18pt;
+    text-transform: uppercase;
+}
+
+footer .block_info figure p{
+    color:white;
+    font-size: 14pt;
+    margin-top: 50px;
+}
+
+footer .footer_title{
+    display: flex;
+    list-style-type: none;
+    
+    /* width: 900px; */
+    justify-content: center;
+}
+
+footer .footer_title .footer_title_list{
+    color:white;
+    margin: 0 100px;
+    margin-top: 100px;
+}
+
+footer .footer_title li a{
+    text-decoration: none;
+    color:white;
+    font-size: 18pt;
+}
+
+footer .footer_list{
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+footer .footer_list li{
+    font-size: 14pt;
+    margin-bottom: 25px;
+}
+
+footer .footer_list li img{
+    margin-right: 20px;
+}
+
+
+@media (min-width: 1366px) and (max-width: 1440px) {
+    
+
+    .menu_left{
+        background-image: url(../img/right_img_noteboock.jpg);
+    }
+
+    .menu_left h2{
+        margin-left: 25%;
+    }
+    
+    .menu_left hr{
+        margin-left:29%;
+    }
+    
+    .menu_left div{
+        margin-left: 10%;
+    }
+    
+    .menu_left div figure{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 600px;
+    }
+    
+    
+
+    .menu_right{
+        background-image: url(../img/left_img_noteboock.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-clip:border-box;
+        display: block;
+        width: 100%;
+        height: 1200px;
+    }
+
+    footer .footer_title .footer_title_list{
+        margin: 0 50px;
+        margin-top: 100px;
+    }
+
+}
